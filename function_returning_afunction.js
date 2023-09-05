@@ -15,3 +15,11 @@ console.log(greeting)   //this will contain the anonymous function inside greet 
 greeting('Hello') //the anonymous function also has parameter so ARGUMENT is needed to pass
 
 
+
+//Another way to call function returning a function is: example
+function info(msg){
+    return function (wish){
+         console.log(`${wish},${msg}`)
+    }
+}
+info("Welcome to another example")('Great')  //the great is another function argumentor parameter
