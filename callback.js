@@ -1,5 +1,5 @@
 // Callback Function
-
+//Function passes as parameter inside another function
 function greet(wish){
     // console.log(wish);
     console.log(wish());
