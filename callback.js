@@ -1,7 +1,7 @@
 // Callback Function
 //Function passes as parameter inside another function
 function greet(wish){
-    // console.log(wish);
+    // console.log(wish);    //and this if uncommented then calling greet(sayHi)will give the whole function
     console.log(wish());
 }
 
