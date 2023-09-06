@@ -23,3 +23,7 @@ function cubic(input){
 }
 console.log("Cube of all values inside array are as follows:")
 console.log(cubic(inputs))
+
+/*Note in both the function all the other codes are same only the main operation i.e for square and cube 
+is changing and because of that the other lines of code are repeating in coding you should follow
+DRY (Do Not Repeat Yourself) so to follow this we will convert the above function the ocde in Higher Order Function          */
