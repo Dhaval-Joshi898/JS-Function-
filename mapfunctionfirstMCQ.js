@@ -26,3 +26,16 @@ console.log(op)
 //ANS:_The map() function throws an error.
 
 //The map() function in JavaScript requires a callback function as an argument. If no callback function is provided, it violates the expected usage of the map() function, and as a result, an error will be thrown.
+
+
+// Question:- What happens if the callback function provided to the map() function does not return a value?
+
+let nums=[5,10,15,20]
+const b=nums.map((currentElement,index)=>{
+
+})
+console.log(b)
+
+//op is [ undefined, undefined, undefined, undefined ]
+// ANS:-If the callback function does not explicitly return a value, it returns undefined by default. 
+// Therefore, when the callback function does not return a value, the map() function includes undefined values for each element in the resulting array.
