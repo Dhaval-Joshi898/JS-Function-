@@ -43,17 +43,17 @@ DRY (Do Not Repeat Yourself) so to follow this we will convert the above functio
 function operation(input,fn){
     output=[]
     for(let num of input){
-        output.push(fn(num));    //here the fn(num) will be converted to square(num) and the square function is called.
+        output.push(fn(num));    //here the fn(num) will be converted to square(num) and the square function is called. and if cubic is passed the cubic function is called
     }
     return output;
 }
 
-function square(num){
-    return num*num
+function square(number){  
+    return number*number
 }
 
-function cubic(num){
-    return num*num*num
+function cubic(number){
+    return number*number*number
 }
 
 console.log(operation(inputs,square))
