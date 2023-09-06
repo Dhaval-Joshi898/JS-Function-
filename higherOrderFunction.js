@@ -2,7 +2,12 @@
 
 /* A Higher Order Function is a function :
    1.which accepts a function as an argument
-   2.Returns a Function            */
+   2.Returns a Function          
+    
+   e.g. function something(fn){
+    returns some
+   }
+   */
 
 const inputs  =[2,4,6,8,10,12,14,16,18]
 
