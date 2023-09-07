@@ -24,3 +24,14 @@ const op=values.reduce((accumulator,currentValues,indexes)=>{
 
 })
 console.log(op)
+
+// Output of above code
+//Here accumulator will contain the first value of elemnet if iniitial value is not given and the indexes will increased by 1
+// that means indexes window;; start form one_(1)
+/*
+acc: 2, num: 3, indexes: 1
+acc: 5, num: 4, indexes: 2
+acc: 9, num: 5, indexes: 3
+acc: 14, num: 6, indexes: 4
+20
+*/  
