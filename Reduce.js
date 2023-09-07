@@ -1,6 +1,6 @@
 // reduce()
 
-//arr.reduce(Redfn,inititalValue)
+//arr.reduce(Redfn,inititalValue)   //the inititalValue is taken by the accumulator if mentioned
 
 // function RedFn(accumulator,currentElement,Indexes,array){    accumulaor is main parameter other are optional
                            //calling  this function above in reduce as a parameter
