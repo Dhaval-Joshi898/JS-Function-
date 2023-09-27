@@ -36,7 +36,7 @@ const inputs  =[2,4,6,8,10,12,14,16,18]
 
 /*Note in both the function all the other codes are same only the main operation i.e for square and cube 
 is changing and because of that the other lines of code are repeating in coding you should follow
-DRY (Do Not Repeat Yourself) so to follow this we will convert the above function the ocde in Higher Order Function          */
+DRY (Do Not Repeat Yourself) so to follow this we will convert the above function the code in Higher Order Function          */
 
 // CREATING A Higher Order Function
 
