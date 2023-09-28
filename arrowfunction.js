@@ -10,4 +10,4 @@ console.log(prod(2,5))
 
 var sum=(a,b)=> a+b
 
-console.log(sum(4,4))
+console.log(sum(5,5))
